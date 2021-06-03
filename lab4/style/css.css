@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation input{
+    margin-top: 14px;
+    width: 450px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 20px;
+    text-align: center;
+}
+.event{
+    margin-top: 18px;
+}
+.navigation button{
+    font-size: 18px;
+    margin-top: 18px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    border: 1px solid #ededed;
+}
+.navigation button:hover{
+    background-color: #dadada;
+}
+.catalogue{
+    margin-top: 60px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.catalogue button{
+    font-size: 18px;
+    margin-top: 18px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.catalogue button:hover{
+    background-color: #dadada;
+}
+.catalogue .cat{
+    margin-top: 18px;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.catalogue .cat:hover{
+    background-color: #dadada;
+}
+.catalogue .cat_1{
+    margin-top: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.catalogue .cat_1:hover{
+    background-color: #dadada;
+}
+.user{
+    border: 2px solid rgb(50, 104, 252);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.user h2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.form{
+    padding: 20px;
+    text-align: center;
+}
+.current_user{
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.userPic{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    background-size: auto 300px;
+}
+.links{
+    padding: 10px;
+}
+.links .change{
+    border: 2px solid rgb(50, 104, 252);
+    width: 200px;
+    height: 30px;
+    background-color:  white;
+    border-radius: 5px;
+}
+.links .logout{
+    border: 2px solid rgb(50, 104, 252);
+    width: 200px;
+    height: 30px;
+    background-color:  white;
+    border-radius: 5px;
+}
+.links .change:hover{
+    background-color:  #dbdbdb;
+}
+.links .logout:hover{
+    background-color:  #dbdbdb;
+}
+.row{
+    outline: none;
+    width: 200px;
+    height: 40px;
+}
+.row:hover{
+    background-color: #e4e4e4;
+    border: 2px solid rgb(50, 104, 252);
+}
+.button{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+}
+.button_1{
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 30px;
+}
+.button:hover{
+    background-color:  rgb(93, 134, 248);
+}
+.button_1:hover{
+    background-color:  rgb(93, 134, 248);
+}
