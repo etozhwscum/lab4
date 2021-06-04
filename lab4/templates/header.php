@@ -9,10 +9,17 @@
 </head>
 <body>
 <div class="navigation">
+    <?php require_once ('vendor/connect.php')?>
     <a href="index.php"><img src="images/logo.jpg"></a>
     <input type="search" placeholder="События, артисты и места ">
-    <a href="events_catalogue.php"><img class="event" src="images/event.png"></a>
-    <a href="login.php"><button>Войти</button></a>
+    <a href="event.php"><img class="event" src="images/event.png"></a>
+    <?php if (isset($_SESSION['user'])){
+        echo '<a href="vendor/logout.php"><button>Выйти</button></a>';
+    }
+    else{
+        echo '<a href="login.php"><button>Войти</button></a>';
+    }
+    ?>
 </div>
 </body>
 </html>

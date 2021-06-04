@@ -21,8 +21,7 @@ session_start();
             </div>
         </form>
         <div class="links">
-            <p><a href="vendor/edit.php" ><button class="change">Редактировать профиль</button></a></p>
-            <p><a href="vendor/logout.php" ><button class="logout">Выйти</button></a></p>
+                <p><a href="edit.php"><button class="change">Редактировать профиль</button></a></p>
         </div>
     </div>
 </body>

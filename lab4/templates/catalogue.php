@@ -11,10 +11,10 @@
 <body>
 <div class="catalogue">
     <a href="cinema.php"><button>Кино</button></a>
-    <a href="#"><button>Театр</button></a>
-    <a  href="#"><button class="cat">Концерты</button></a>
-    <a  href="#"><button class="cat_1">Сертификаты</button></a>
-    <a  href="#"><button class="cat">Выставки</button></a>
+    <a href="theater.php"><button>Театр</button></a>
+    <a  href="concert.php"><button class="cat">Концерты</button></a>
+    <a  href="certificate.php"><button class="cat_1">Сертификаты</button></a>
+    <a  href="exhibition.php"><button class="cat">Выставки</button></a>
 </div>
 </body>
 </html>
